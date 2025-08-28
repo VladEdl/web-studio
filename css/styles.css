@@ -220,3 +220,34 @@ body {
 	color: #757575;
 	margin-top: 10px;
 }
+
+/* FOOTER */
+
+.footer {
+	background-color: #2F303A;
+}
+
+.footer-logo{
+	/* margin-bottom: 20px	; */
+}
+
+.footer-contact{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 20px 0 60px;
+}
+.footer-contact a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.footer-contact>a+a{
+	color: #ffffff80;
+}
+
+.footer-contact a.active {
+	color: #2196F3;
+}
+
+
