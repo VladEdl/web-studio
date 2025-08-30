@@ -86,7 +86,7 @@ body {
 
 .header-menu a,
 .header-second-menu a {
-	color: var(--title-color);
+	color: var(--text-color);
 	text-decoration: none;
 }
 
