@@ -320,15 +320,47 @@ body {
 	gap: 30px;
 	border: 1px solid #eeeeee;
 	flex: 1 1 370px;
+	position: relative;
+	cursor: pointer;
 }
 
 .portfolio-card-link {
 	display: block;
 	height: 294px;
+	text-decoration: none;
+	display: flex;
+	position: relative;
+}
+
+.hover-block{
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(33, 150, 243, 0.9);
+	color: #fff;
+	font-weight: 400px;
+	font-size: 18px;
+	padding: 60px 25px;
+	line-height: 28px;
+	opacity: 0;
+}
+
+.portfolio-card:hover
+.hover-block{
+	opacity: 1;
+}
+
+.portfolio-card:hover{
+	box-shadow: 0 4px 4px #ccc;
 }
 
 .portfolio-card-text{
 	overflow: hidden;
+	
 }
 
 .portfolio-card-link img {
