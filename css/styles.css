@@ -376,3 +376,46 @@ body {
 .portfolio-card-title{
 	margin-bottom: 4px;
 }
+
+.header-filters{
+	position: relative;
+}
+
+.header-second-filters a {
+	background: #f3eeeead;
+	padding: 5px 10px;
+	display: none;
+	border-bottom: 1px solid #757575;
+}
+
+.header-second-filters {
+	padding-top: 5px;
+	position: absolute;
+}
+
+.filter {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%;
+	position: relative;
+}
+
+.first-filter{
+	width: 100%;
+}
+
+.all-filter {
+	width: 100%;
+	position: absolute;
+	left: -100%;
+	padding-right: 10px;
+	display: none;
+}
+
+.header-filters:hover .header-second-filters a{
+	display: block;
+}
+
+.filter:hover .all-filter{
+	display: block;
+}
