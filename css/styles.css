@@ -419,3 +419,49 @@ body {
 .filter:hover .all-filter{
 	display: block;
 }
+
+.first-section a{
+	text-decoration: none;
+	background: var(--active-color);
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 4px;
+	font-size: 20px;
+	line-height: normal;
+}
+
+.first-section {
+	height: 600px;
+	background: green url(../images/Img1.png) no-repeat 50% / cover;
+	position: relative;
+	
+	color: #fff;
+
+
+}
+
+.business {
+	background: rgba(33, 33, 33, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	gap: 30px;
+}
+
+.business h2 {
+	max-width: 600px;
+	font-weight: 600;
+	font-size: 44px;
+	margin-bottom: 30px;
+}
+
+
+.business a:hover {
+	background-color: #25cdf3;
+}
