@@ -506,3 +506,41 @@ body {
     font-weight: 400;
     color: var(--text-color);
 }
+
+.card-icons {
+    display: flex;
+	justify-content: center;         
+    gap: 10px;             
+	padding: 0 30px 30px;
+	background: #fff;
+}
+
+.card-icons li {
+    display: inline-block; 
+
+}
+
+.card-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: transparent;
+    transition: linear 0.3s;
+}
+
+.card-icons svg {
+    width: 20px;
+    height: 20px;
+    color: #AFB1B8;
+}
+
+.card-icons a:hover {
+    background-color: #2196F3;
+}
+
+.card-icons a:hover svg {
+    color: #fff;
+}
