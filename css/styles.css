@@ -690,4 +690,107 @@ body {
 }
 
 
+@media (max-width: 992px) {
+	.header-container {
+		max-width: 960px;
+	}
+
+	.header-menu{
+		margin-left: 60px;
+	}
+
+	.header-second-menu {
+		gap: 30px;
+		margin-right: 50px;
+	}
+
+	.container{
+		max-width: 960px;
+	}
+
+	.text-container{
+		display: flex;
+		flex: 1 1 50%;
+		flex-wrap: wrap;
+		
+	}
+
+	.about-text {
+		flex: 0 1 33%;
+		margin: 0 auto;
+	}
+
+	.about-text::before{
+		object-fit: cover;
+	}
+
+	.do {
+		display: none;
+	}
+
+	.company-icons {
+		display: flex;
+		flex-direction: 1 1 33%;
+	}
+
+	.team-card{
+		flex-basis: 46%;
+	}
+
+	.company {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.header-second-menu {
+		display: none;
+		
+	}
+	.header-menu {
+		justify-content: space-between;
+	}
+
+	.team-card{
+		flex-basis: 100%;
+		object-fit: cover;
+		flex: 0 0 100%;
+	}
+
+	.team-card-link{
+		height: 460px;
+	}
+}
+
+@media (max-width: 480px){
+	.header-menu {
+		display: none;
+	}
+
+	.text-container {
+		margin-top: 60px;
+	}
+
+	.about-text {
+		flex: 0 1 100%;
+		margin: 0 auto;
+	}
+
+	.footer-icon {
+		display: none;
+	}
+
+	.footer-logo {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding-top: 62px;
+	}
+
+	.footer-contact{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
 
